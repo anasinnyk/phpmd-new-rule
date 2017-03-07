@@ -1,0 +1,2 @@
+/home/nas/projects/phpmd-new-rule/tests/Rule/example.php:7	new statement used for Category class. Please try use injection for object.
+/home/nas/projects/phpmd-new-rule/tests/Rule/example.php:10	new statement used for anonymous class. Please try use injection for object.

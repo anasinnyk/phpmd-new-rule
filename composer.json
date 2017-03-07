@@ -1,0 +1,25 @@
+{
+    "name": "anasinnyk/phpmd-new-rule",
+    "description": "PHPMD rule for prohibition operator new",
+    "type": "rule",
+    "authors": [
+        {
+            "name": "Andrii Nasinnyk",
+            "email": "andriy.nas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "anasinnyk\\": "src/"
+        }
+    },
+    "require": {
+        "phpmd/phpmd": "^2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
